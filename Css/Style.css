@@ -1,13 +1,17 @@
 ﻿body
 {
 }
-.index-body{
-    height:800px;
-    background-color: gainsboro;
-    margin:0 auto;
-
+.hero-header {
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../images/bg-hero.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-repeat: repeat, repeat;
+    background-size: auto, auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 /*** Section Title ***/
 .section-title {
     position: relative;
